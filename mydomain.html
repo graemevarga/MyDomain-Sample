@@ -6,7 +6,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
 	<style>
 		   body { 
-		     background: url(./owen-fountain.jpg) no-repeat center center fixed; 
+		     background: url() no-repeat center center fixed; 
 		     -webkit-background-size: cover;
 		     -moz-background-size: cover;
 		     -o-background-size: cover;
@@ -58,7 +58,17 @@
 	
 	</div>
 	
-	
+<script type="text/javascript">
+
+/*Random Background Image-
+By JavaScript Kit (www.javascriptkit.com)
+More free JavaScripts here!
+*/
+
+var randombgs=["./owen-fountain.jpg", "./coffee.jpg"]
+
+document.body.style.background='white url('+Math.floor(Math.random()*randombgs.length)]+')')
+</script>	
 	
 </body>
 </html>
